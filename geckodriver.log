@@ -514,3 +514,75 @@ JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb
 JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 55: Script terminated by timeout at:
 C@https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115:55:21
 
+1692405608007	geckodriver	INFO	Listening on 127.0.0.1:57688
+1692405608039	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/81/kll011gx2_n488rj8_jk9f2r0000gn/T/rust_mozprofileoWZkWv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692405608872	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692405609160	Marionette	INFO	Listening on port 57696
+WebDriver BiDi listening on ws://127.0.0.1:57689
+Read port: 57696
+1692405609382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:57689/devtools/browser/ef96ba0c-864a-4d4b-b874-f2d8dcb46057
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 5808: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7435: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7566: unreachable code after return statement
+JavaScript error: https://ticket.melon.com/resource/script/web/common/jquery-3.6.0.min.js, line 2: SecurityError: Permission denied to access property "console" on cross-origin object
+2023-08-19 09:40:37.973 firefox-bin[42814:6964602] TSM AdjustCapsLockLEDForKeyTransitionHandling - _ISSetPhysicalKeyboardCapsLockLED Inhibit
+1692405637992	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 5808: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7435: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7566: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1692405653567	geckodriver	INFO	Listening on 127.0.0.1:57815
+1692405654091	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/81/kll011gx2_n488rj8_jk9f2r0000gn/T/rust_mozprofileEBNQm0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692405655031	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692405655327	Marionette	INFO	Listening on port 57823
+WebDriver BiDi listening on ws://127.0.0.1:57816
+Read port: 57823
+1692405655450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:57816/devtools/browser/43993ff6-a572-400e-8d3d-9e8df4727c38
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 5808: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7435: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7566: unreachable code after return statement
+JavaScript error: https://ticket.melon.com/resource/script/web/common/jquery-3.6.0.min.js, line 2: SecurityError: Permission denied to access property "console" on cross-origin object
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 5808: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7435: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7566: unreachable code after return statement
+1692405670936	Marionette	INFO	Stopped listening on port 57823
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 55: Script terminated by timeout at:
+C@https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115:55:21
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1692420246935	geckodriver	INFO	Listening on 127.0.0.1:64696
+1692420247427	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/81/kll011gx2_n488rj8_jk9f2r0000gn/T/rust_mozprofile0SNEMb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692420248531	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692420248844	Marionette	INFO	Listening on port 64721
+WebDriver BiDi listening on ws://127.0.0.1:64697
+Read port: 64721
+1692420249111	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:64697/devtools/browser/43e6c4c5-9b5c-411a-9ff1-33b374c6dbbb
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 5808: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7435: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7566: unreachable code after return statement
+JavaScript error: https://ticket.melon.com/resource/script/web/common/jquery-3.6.0.min.js, line 2: SecurityError: Permission denied to access property "console" on cross-origin object
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 5808: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7435: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7566: unreachable code after return statement
+1692420264582	Marionette	INFO	Stopped listening on port 64721
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 55: Script terminated by timeout at:
+C@https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115:55:21
+

@@ -1,5 +1,6 @@
 # 세션 쿠키 정보를 텍스트 파일로 저장
 # Save Cookie for the .txt file
+# Change the JSEESIONID... ETC for your Web Session Cookie
 def save_cookies_to_file(cookie_list, filename):
     with open(filename, 'w') as file:
         for cookie_name, cookie_value in cookie_list:
