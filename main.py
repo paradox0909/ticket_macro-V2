@@ -19,8 +19,7 @@ loaded_cookie_list = load_cookies_from_file('cookies.txt')
 driver = webdriver.Firefox()
 
 # 웹 페이지 열기
-driver.get('https://ticket.melon.com/csoon/detail.htm?csoonId=7635')
-
+driver.get('https://ticket.melon.com/performance/index.htm?prodId=208654')
 # 불러온 쿠키 정보를 적용
 for cookie_name, cookie_value in loaded_cookie_list:
     driver.add_cookie({"name": cookie_name, "value": cookie_value})

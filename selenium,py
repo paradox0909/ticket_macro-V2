@@ -1,0 +1,8 @@
+from selenium import webdriver
+
+driver = webdriver.Firefox(executable_path='/Users/paradoxmyung/Desktop/Ive_macro/geckodriver')
+
+driver.get('http://127.0.0.1')
+
+driver.quit()
+
