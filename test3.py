@@ -1,32 +1,38 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
 # Firefox Start 
 driver = webdriver.Firefox()
 
 # 웹 페이지 열기
-driver.get('https://ticket.melon.com/csoon/detail.htm?csoonId=7635')
+driver.get('https://ticket.melon.com/performance/index.htm?prodId=209371')
 
-# [SET COOKIES MY_SESSION_COOKIE AND KEYS]
 cookie_list = [
-    ("JSESSIONID", "4A5B9AA94440CE5611F0383E69B21C3D"),
-    ("KAUTH", "Mnh6UUJSSTF2SHJFTkFiOGt1aWVWSWp2QWZOcDFIQUEyWl9waWt4dUNpb2xEUUFBQVluLVpnbzUlM0J0V29oX3FpMlY4dzVtemFuTE5FT0NkUXU2Q09hTkxMR0M5OGExa0J5Q2lvbERRQUFBWW4tWmdvMyUzQiUzQiUzQiUzQiUzQg=="),
-    ("keyCookie", "48188821"),
-    ("MAC", "pg2RI8UD2J/q3f6qm0Rp/Gf027vi887dGlh4EGtFWNIgP/PfiDCW2hXz2SzwzFYe5iRK1LhKatqJ9YsXPDPSnw=="),
-    ("MLCP", "NDgxODg4MjElM0IlMjNrYWthb19kb2tpbmdrbnMwOTA5cGRjdSUzQiUzQjAlM0JleUpoYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRaVzFpWlhJdWJXVnNiMjR1WTI5dElpd2ljM1ZpSWpvaWJXVnNiMjR0YW5kMElpd2lhV0YwSWpveE5qa3lNVGt3TWpRM0xDSnRaVzFpWlhKTFpYa2lPaUkwT0RFNE9EZ3lNU0lzSW1GMWRHOU1iMmRwYmxsT0lqb2lUaUo5Ll9XVWRoVTJkajc4U2ZXbXEyelpQdVZIY2diZUJteGtoc0Q5ZXRVQlVQeTAlM0IlM0IwODE2MjE1MDQ3JTNCUGFyYWRveExpeiUzQjElM0Jkb2tpbmdrbnMwOTA5JTQwbmF2ZXIuY29tJTNCMyUzQg=="),
-    ("MUS", "1149506888"),
-    ("PC_PCID", "16921902083967808656161"),
-    ("PCID", "16921902083967808656161"),
+    ("JSESSIONID", "E75BAF7B0EA0BABD8CEB2FBC00B3048F"),
+    ("KAUTH", "M182RzNqcndCdC1uYXZjNGJGN1Rmelo4ZDFUQ0wwby1mX05UaVZYOUNqMTAyd0FBQVlwZnl1bWklM0J6OUNVM2hTMTdEN0NoSlVzdFBRRGc3aDdyOUtnUG1BYVVteGxZSWhnQ2oxMDJ3QUFBWXBmeXVtaCUzQiUzQiUzQiUzQiUzQg=="),
+    ("keyCookie", "49285145"),
+    ("MAC", "uehtloThD/AvpxsuVPsVqM8FYsiKEDe9Uxb/af9h1GQyvIAZZi3oaDYvduUgxM/B"),
+    ("MLCP", "NDkyODUxNDUlM0IlMjNrYWthb19rbWcwNDExeTY4eDZqJTNCJTNCMCUzQmV5SmhiR2NpT2lKSVV6STFOaUo5LmV5SnBjM01pT2lKdFpXMWlaWEl1YldWc2IyNHVZMjl0SWl3aWMzVmlJam9pYldWc2IyNHRhbmQwSWl3aWFXRjBJam94Tmprek9ESTBNalE0TENKdFpXMWlaWEpMWlhraU9pSTBPVEk0TlRFME5TSXNJbUYxZEc5TWIyZHBibGxPSWpvaVRpSjkuOXZLVkxqWEJkVDRYUVZVSldFaWQybG1pTGdIbks4UXhvYXRfQlBRTnJxayUzQiUzQjA5MDQxOTQ0MDglM0IlRUIlQUQlOTglRUIlQTElOUMlRUQlOTUlQTAlRUElQjklOEMlM0IxJTNCa21nMDQxMXklNDBuYXZlci5jb20lM0IzJTNC"),
+    ("MUS", "-1520254322"),
+    ("PC_PCID", "16976242047191950443296"),
+    ("PCID", "16976242047191950443296"),
     ("TKT_POC_ID", "MP15"),
-    ("wcs_bt", "s_585b06516861:1692190266")
+    ("wcs_bt", "s_585b06516861:1706184927"),
+    ("NA_SAC", "dT1odHRwcyUzQSUyRiUyRnRpY2tldC5tZWxvbi5jb20lMkZyZXNlcnZhdGlvbiUyRnBvcHVwJTJGc3RlcEZpbmlzaC5odG0lM0Zyc3J2U2VxJTNEMjAyNDAxMjUwNDE3OTc5MCUyNmNoa0FncmVlQ2hhbm5lbCUzRHxyPWh0dHBzJTNBJTJGJTJGdGlja2V0Lm1lbG9uLmNvbSUyRnJlc2VydmF0aW9uJTJGcG9wdXAlMkZzdGVwRGVsdnkuaHRtJTNGcHJvZElkJTNEMjA5MzcxJTI2c2NoZWR1bGVObyUzRDEwMDAwNCUyNmZpcnN0U2VhdElkJTNENzM4XzE0NyUyNnBlcmZTdGFydERheSUzRDIwMjQwMzEwJTI2aW50ZXJsb2NrVHlwZUNvZGUlM0Q="),
+    ("NetFunnel_ID", "WP15"),
 ]
 
 for cookie_name, cookie_value in cookie_list:
     driver.add_cookie({"name": cookie_name, "value": cookie_value})
 
-driver.refresh()
+wait = WebDriverWait(driver, 30)  # 최대 20초간 대기
 
-driver.implicitly_wait(10)
+#첫번째 버튼
+xpath = '//*[@id="dateSelect_20240303"]/button'
+wait.until(EC.presence_of_element_located((By.XPATH, xpath))).click()
+#두번째 버튼
+xpath_second_button = '//*[@id="ticketReservation_Btn"]'
+wait.until(EC.presence_of_element_located((By.XPATH, xpath_second_button))).click()
 
-time.sleep(10)
-
-driver.quit()

@@ -747,3 +747,66 @@ b@https://www.google.com/xjs/_/js/k=xjs.s.ko.7oFlH8_xFg4.O/am=CAAAAAAAAAAAAAAAAg
 1694402199862	Marionette	INFO	Stopped listening on port 59434
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1704786326764	geckodriver	INFO	Listening on 127.0.0.1:59516
+1704786327210	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/81/kll011gx2_n488rj8_jk9f2r0000gn/T/rust_mozprofileMjcLra"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2024-01-09 16:45:28.079 firefox[80000:9862431] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1704786328305	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1704786328552	Marionette	INFO	Listening on port 59688
+WebDriver BiDi listening on ws://127.0.0.1:59517
+1704786328597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:59517/devtools/browser/567baf5c-c9ac-4384-a4e8-d321b95803b4
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 5875: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7502: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7633: unreachable code after return statement
+JavaScript warning: https://www.melon.com/resource/script/web/common/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 5875: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7502: unreachable code after return statement
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 7633: unreachable code after return statement
+JavaScript warning: https://www.melon.com/resource/script/web/common/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1704786342229	Marionette	INFO	Stopped listening on port 59688
+JavaScript warning: https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115, line 55: Script terminated by timeout at:
+C@https://ticket.melon.com/resource/script/web/common/melonweb_cmtpgn.js?t=20200115:55:21
+
+1704786508508	geckodriver	INFO	Listening on 127.0.0.1:60508
+1704786509023	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/81/kll011gx2_n488rj8_jk9f2r0000gn/T/rust_mozprofilejXqZuD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2024-01-09 16:48:29.926 firefox[80111:9865067] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1704786510139	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1704786510510	Marionette	INFO	Listening on port 60528
+WebDriver BiDi listening on ws://127.0.0.1:60509
+1704786510607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:60509/devtools/browser/ad17be32-189e-4108-95f0-8d318255edb8
+JavaScript warning: https://www.melon.com/resource/script/web/common/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1042: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1704786562386	geckodriver::marionette	ERROR	Failed to close browser connection: unknown error
+1704786573449	geckodriver	INFO	Listening on 127.0.0.1:60863
+1704786573963	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/81/kll011gx2_n488rj8_jk9f2r0000gn/T/rust_mozprofileUCCWnf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2024-01-09 16:49:34.321 firefox[80211:9866454] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1704786574504	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1704786574695	Marionette	INFO	Listening on port 60881
+WebDriver BiDi listening on ws://127.0.0.1:60864
+1704786574738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:60864/devtools/browser/a50ee90f-ba46-4c30-8815-0b7e2b34bee0
+JavaScript warning: https://www.melon.com/resource/script/web/common/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.melon.com/resource/script/web/common/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1704786589338	Marionette	INFO	Stopped listening on port 60881
+JavaScript warning: https://ticket.melon.com/resource/frontEnd/dist/melonlib.min.js?rel=202312081702007198629, line 1: Script terminated by timeout at:
+i@https://ticket.melon.com/resource/frontEnd/dist/melonlib.min.js?rel=202312081702007198629:1:241949
+
