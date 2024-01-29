@@ -1,4 +1,3 @@
-// 현재 페이지의 모든 쿠키 가져오기
 function getAllCookies() {
     var cookies = document.cookie.split('; ');
     var cookieObject = {};
@@ -13,7 +12,7 @@ function getAllCookies() {
     return cookieObject;
 }
 
-// 쿠키 객체를 문자열로 변환하여 출력
+// 쿠키 객체를 문자열로 변환하여 출력 ** 중요함.
 function displayCookiesAsString() {
     var cookies = getAllCookies();
     var result = '';
