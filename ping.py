@@ -7,7 +7,8 @@ def send_packet(destination_ip, packet_number):
     print(f"ping good - Packet {packet_number}")
 
 if __name__ == "__main__":
-    target_ip = "219.251.10.72"
+    target_ip = ""
+    # set ip first
     packet_count = 3 
     interval = 0.001    
     
