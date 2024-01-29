@@ -19,4 +19,4 @@ if __name__ == "__main__":
 
     for i in range(packet_count):
         send_packet(target_ip, i + packet_count + 1)
-        time.sleep(interval)  # 패킷 전송 간격 대기
+        time.sleep(interval)
